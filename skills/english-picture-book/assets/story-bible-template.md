@@ -35,7 +35,8 @@
 - ✦ 反复出现的标志物（串联场景、防跳脱）：【填】例：一把红伞 / 一行脚印 / 一颗发光的蛋
 
 ## 5. ✦ 风格锚点（Style Guide）
-> 这几行原样进每条 prompt，决定全书画风统一。
+> **先让客户从 `references/style-library.md` 风格库里选一种画风**（可用"风格试片"看实图对比），把它的 STYLE/PALETTE 抄到下面。这几行原样进每条 prompt，决定全书画风统一。
+> 选用的风格名：【填】例：古典水彩 / 现代扁平 / 柔和数字 …
 - 媒介/画风：【填】例：classic painterly children's-book watercolor, soft warm light, lush layered depth, gentle and cozy, never scary
 - 主色板（3–5 色）：【填】
 - 光线：【填】

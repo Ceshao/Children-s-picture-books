@@ -125,6 +125,8 @@ Ask for (in one message, but don't block on perfection):
   patterned, heavier repetition) or will an adult read it aloud? Default to *recite-themselves*
   since that's the hardest and most common ask.
 - **Length**: default to **~12 picture pages** (plus cover) unless they say otherwise.
+- **Art style**: do they have a look in mind? Either way, you'll show them the **style library**
+  (`references/style-library.md`) to choose from in Step 2 — the style is the customer's call.
 - **Show-and-tell fit**: this book IS the child's show-and-tell — they hold it up and present it
   to the class themselves. Confirm the **time slot** (usually 2–3 min) and, crucially, what the
   child genuinely **loves** (a real interest, pet, place, habit). Show-and-tell is about sharing
@@ -137,8 +139,15 @@ Copy `assets/story-bible-template.md` and fill it in. The make-or-break fields:
 - **Identity anchors** (3–7 per character): the handful of visual features that must stay
   identical on every page (hair, a signature jacket/hat, etc.). For the child hero, derive
   these from the photo + a chosen book outfit.
-- **Style anchors**: medium, palette, light — a few concrete phrases that go verbatim into
-  every image prompt so the art doesn't drift.
+- **Style anchors — the customer's choice.** Pick the art style FROM
+  `references/style-library.md`; the look is the customer's call, so present the fitting options
+  and let them decide rather than defaulting silently. Recommend 1–2 that suit the story + child +
+  the show-and-tell setting, and name the tradeoffs each preset lists (legibility from across the
+  room, how well it keeps the real child's likeness, cross-page consistency). **When they're
+  unsure, run a style test**: render ONE fixed scene (the cover, or a clear character page) in 2–3
+  candidate styles — identical prompt, only the STYLE/PALETTE block swapped, same canvas, same
+  attached photo — so they compare apples-to-apples and choose. Paste the chosen STYLE + PALETTE
+  here verbatim; every page prompt then uses it so the art stays uniform.
 - **The refrain**: ONE short repeated line (≤6 words), ideally spoken dialogue, that recurs
   at a fixed story beat. This is the backbone of recitation — design it deliberately.
 - A reusable **sound-word list** and a **recurring landmark object** (used to physically
@@ -279,6 +288,10 @@ Quick gate, every book:
 
 ## Reference material (read as needed)
 
+- `references/style-library.md` — the menu of selectable art styles (watercolor, flat vector,
+  cut-paper collage, crayon, soft digital, retro limited-palette, soft 3D, ink-wash), each with a
+  ready-to-paste STYLE/PALETTE block and tradeoffs. Use it to let the customer choose the look and
+  to run a style test.
 - `references/north-star.md` — the felt standard: a worked study of 4 gold-standard models for
   a 3-year-old reciter (Bear Hunt / Brown Bear / Pigeon / Goodnight Moon) and the 6 checks.
   Read this to calibrate "what good feels like" before judging your own draft.
