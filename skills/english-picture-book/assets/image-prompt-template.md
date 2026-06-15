@@ -1,7 +1,9 @@
 # 配图 Prompt 模板（AI 生图 · 用真实照片锁相似度 + 锁风格）
 
-> 核心：每条 prompt = **固定块（风格 + 角色锚点，每页不变）+ 变化块（这一页的镜头/动作/场景）**。
+> 核心：每条 prompt = **固定块（风格 + 角色锚点 + 画布尺寸，每页不变）+ 变化块（这一页的镜头/动作/场景）**。
 > 相似度靠"附图"保证：每页都附 **① 用户上传的照片** + **② 已定稿的插画版主参考图**。
+
+> **🔒 统一尺寸铁律**：所有页（封面、扉页、内页、满版高潮页）都用**同一个画布尺寸**（默认竖版 2:3，≈1024×1536），来自 Story Bible 的 Canvas 字段。每条 prompt 都带 `CANVAS` 行；高潮页靠**构图**铺满同一张画布制造气势，**绝不换更宽/横版尺寸**。若所用工具出图尺寸略有出入，排版成 PDF 前**统一裁成同一尺寸**。
 
 ---
 
@@ -28,6 +30,7 @@ Character reference sheet: front view and 3/4 view, plain soft background, frien
 ```
 STYLE: <medium / mood>.
 PALETTE: <主色板>.
+CANVAS: portrait 2:3 (≈1024×1536) — the SAME size on every page, cover included.
 ```
 
 **【角色锚点块】**（Story Bible §3，每个出场角色都写）
@@ -51,7 +54,7 @@ COMPOSITION: <构图/朝向，配合左→右翻页动量>
 | MED | medium shot, characters from the waist up, focus on interaction |
 | CU | close-up on face and expression, emotional |
 | DET | detail / still-life of one object, no main character in frame |
-| FULL | full-bleed dramatic spread, fills the whole page, epic |
+| FULL | epic composition filling the SAME portrait canvas edge-to-edge, no border (NOT a wider/landscape spread — keep the same size) |
 
 ## 完整 prompt 拼装公式
 ```
@@ -69,6 +72,7 @@ Children's picture book illustration, single page.
 ```
 STYLE: classic painterly children's-book watercolor, soft warm morning light, lush layered depth, gentle and cozy, never scary.
 PALETTE: warm amber, sage green, soft sky blue, cream.
+CANVAS: portrait 2:3 (≈1024×1536) — same size as every page.
 SHOT: wide establishing shot, high angle, show the whole valley, a winding trail and a distant waterfall.
 SCENE: a quiet green valley at sunrise.
 ACTION: no characters in frame — just the calm valley and the trail leading forward.
@@ -86,6 +90,7 @@ Children's picture book illustration, single page.
 4. 全部出完，**首页 vs 末页并排**做最终校验。
 
 校验清单：
+- [ ] **每页尺寸完全一致**（同一画布，封面也一样）？满版页没有换成更宽/横版？
 - [ ] 每页角色锚点都在（脸/发/服装/比例）、且像照片里的孩子？
 - [ ] 画风/光线/色调全书统一？
 - [ ] 非人物页没有不小心又画上主角？

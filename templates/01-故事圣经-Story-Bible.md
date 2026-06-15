@@ -41,6 +41,7 @@
 - 主色板（3–5 个主色）：【填】例：warm amber, sage green, soft sky blue, cream
 - 光线：【填】例：golden warm daylight, gentle
 - 统一气质：【填】例：gentle, cozy, slightly magical, never scary
+- ✦ **画布/尺寸（Canvas）**：【填】默认 **竖版 2:3（≈1024×1536）**。**全书每页（含封面、扉页、满版页）都用这一个尺寸，保证成品统一**——原样进每条 prompt 的 `CANVAS`。
 
 ## 6. ✦ 副歌（Refrain）— 全书重复 ≥3 次
 > 必须短、顺口、句式固定，让娃能背。

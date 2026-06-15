@@ -39,6 +39,7 @@
 - 媒介/画风：【填】例：classic painterly children's-book watercolor, soft warm light, lush layered depth, gentle and cozy, never scary
 - 主色板（3–5 色）：【填】
 - 光线：【填】
+- ✦ **画布/尺寸（Canvas）**：【填】默认 **竖版 2:3（≈1024×1536）**。**全书每页（含封面、扉页、满版高潮页）都用这一个尺寸，保证成品统一**——这行原样进每条 prompt 的 `CANVAS`。
 
 ## 6. ✦ 副歌（Refrain）— 全书重复 ≥3 次
 > 必须短（≤6 词）、顺口、句式固定，最好是对白。

@@ -20,11 +20,14 @@ PIP: a small friendly baby pterosaur, green body with a cream belly, orange wing
 
 ---
 
+> **🔒 统一尺寸**：所有页（封面/扉页/内页/满版高潮）都用**同一画布：竖版 2:3（≈1024×1536）**。下面固定块已含 `CANVAS` 行；满版页靠构图铺满同一画布，不换横版。
+
 ## 固定块（下面每页都已含，无需另加）
 
 ```
 STYLE: classic painterly children's-book watercolor, soft warm golden light, lush layered depth, gentle cozy and slightly magical, never scary.
 PALETTE: warm amber, sage green, soft sky blue, cream, touches of crystal purple.
+CANVAS: portrait 2:3 (≈1024×1536) — the SAME size on every page, cover included.
 ORION: round-faced young Asian boy ~3, orange hooded jacket, blue star bucket hat, crossbody bag, blue jeans, navy sneakers — same face & outfit every page.
 PIP: small baby pterosaur, green body, cream belly, orange wings, orange head-crest, big blue eyes, shorter than Orion — same every page.
 ```
@@ -136,11 +139,11 @@ Children's picture book illustration, single page.
 ### P10（FULL · 云端巢高潮 · 满版）
 ```
 [固定块]
-SHOT: full-bleed dramatic double-page-feeling spread, fills the whole page, epic and joyful.
+SHOT: epic composition filling the SAME portrait canvas edge-to-edge, no border, joyful (same size as every page — NOT a wider/landscape spread).
 SCENE: the Cloud Nest high above the rainbow waterfall, soft clouds, a big rainbow.
 ACTION: Orion lifts the glowing egg back into the nest; a flock of gentle pterosaurs swoops down singing around them.
 COMPOSITION: sweeping sky, warm light bursting, the egg glowing at the heart of the scene.
-Children's picture book illustration, full page.
+Children's picture book illustration, single page.
 ```
 
 ### P11（WIDE · 日落拥抱）
@@ -166,6 +169,7 @@ Children's picture book illustration, single page.
 ---
 
 ## 出图后一致性校验
+- [ ] **每页尺寸完全一致**（同一竖版 2:3 画布，封面也一样；满版页没换横版）？
 - [ ] 每页 Orion 的橙外套/蓝渔夫帽/挎包是否一致？
 - [ ] 每页 Pip 的绿身/橙翼/橙冠/大蓝眼是否一致？
 - [ ] 暖光水彩画风、色板是否全书统一？

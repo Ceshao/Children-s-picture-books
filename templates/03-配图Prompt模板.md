@@ -1,7 +1,9 @@
 # 配图 Prompt 模板（AI 生图 · 保角色一致 + 风格一致）
 
 > 作用：把 Story Bible 的"锚点"和分镜表的"画面内容/镜头"拼成稳定的生图 prompt。
-> 核心原则：**每条 prompt = 固定块（风格+角色锚点，每页不变）+ 变化块（这一页的镜头+动作+场景）。**
+> 核心原则：**每条 prompt = 固定块（风格+角色锚点+画布尺寸，每页不变）+ 变化块（这一页的镜头+动作+场景）。**
+
+> **🔒 统一尺寸铁律**：所有页（封面/扉页/内页/满版高潮页）都用**同一个画布尺寸**（默认竖版 2:3，≈1024×1536）。每条 prompt 都带 `CANVAS` 行；满版页靠构图铺满同一画布，**绝不换更宽/横版尺寸**。工具出图有出入就排版前统一裁切。
 
 ---
 
@@ -21,6 +23,7 @@
 STYLE: classic painterly children's-book watercolor, soft warm golden light,
 layered depth, gentle cozy slightly-magical mood, never scary.
 PALETTE: warm amber, sage green, soft sky blue, cream.
+CANVAS: portrait 2:3 (≈1024×1536) — the SAME size on every page, cover included.
 ```
 
 **【角色锚点块】**（来自 Story Bible §3，每个出场角色都写）
@@ -47,7 +50,7 @@ COMPOSITION: [构图/朝向，配合从左到右翻页动量]
 | MED | medium shot, characters from waist up, focus on interaction |
 | CU | close-up on face and expression, emotional |
 | DET | detail shot / still life of one object, no characters or characters out of frame |
-| FULL | full-bleed dramatic spread, fills the whole page, epic |
+| FULL | epic composition filling the SAME portrait canvas edge-to-edge, no border (NOT a wider/landscape spread — keep the same size) |
 
 ## 3. 完整 prompt 拼装公式
 ```
@@ -73,6 +76,7 @@ Children's picture book illustration, single page.
 > 注意：这是一张**纯环境页**（满足"非人物页 ≥25%"），文字那页只配一个声音词，如 *Shh. The valley was very quiet.*
 
 ## 4. 一致性校验（出图后必做）
+- [ ] **每页尺寸完全一致**（同一画布，封面也一样；满版页没换横版）？
 - [ ] 每个角色锚点是否都在（脸/服装/比例/配色）？
 - [ ] 风格/光线/色调和前几页一致？
 - [ ] **把第 1 页和最后一页并排**，角色像不像同一个？
