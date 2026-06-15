@@ -7,6 +7,10 @@ V3/
 **/.claude/settings.local.json
 .claude/settings.local.json
 
+# Python 缓存
+__pycache__/
+*.pyc
+
 # 系统/编辑器杂项
 .DS_Store
 Thumbs.db
