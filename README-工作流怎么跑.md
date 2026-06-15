@@ -46,6 +46,18 @@
 
 ---
 
+## 自动更新（Codex 免重装）
+
+Skill 内置 **Step 0 自更新**：每次在 Codex/Claude 里被调用，会先从 GitHub 同步最新版——
+- 在 git 仓库里 → 自动 `git pull`；
+- 独立安装的 → 跑 `skills/english-picture-book/scripts/update.py` 从 GitHub 拉取覆盖。
+
+所以你只要把仓库 `git pull` 到最新，skill 就是最新，**不用每次重装**。
+
+> 注意两点：
+> 1. SKILL.md 正文的更新**下一次运行**才完全生效（Agent 在会话开始就已加载正文）；引用文件当次即可用。
+> 2. **每次改动 skill，记得把 `skills/english-picture-book/VERSION` 往上 bump 一位**，自更新的版本提示才准确。
+
 ## 历史版本
 - `V1/ V2/ V3/`：之前用 ChatGPT 直接生成的《Orion and the Secret Pterosaur Valley》。
   - 优点：V3 画风已接近凯迪克式古典水彩，质量不错。
