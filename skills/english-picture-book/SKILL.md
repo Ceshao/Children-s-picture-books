@@ -28,7 +28,10 @@ uploads**; the story and pictures are built to professional picture-book craft s
 1. `story-bible.md` — locks character likeness, world, art style, and the **refrain**
 2. `storyboard.md` — page-by-page: shot type + finished English text
 3. `image-prompts.md` — one ready-to-paste prompt per page, built to keep likeness + style consistent
-4. A short production note telling the user how to generate the images and assemble the PDF
+4. `presenter-kit.md` — the child's **show-and-tell scaffold**: an opening self-intro and a clear
+   closing line, a per-page cue card (what to *say* + what to *do*), one class-participation
+   moment, a parent rehearsal plan, and simple Q&A answers
+5. A short production note telling the user how to generate the images and assemble the PDF
 
 The user generates the actual images themselves (e.g. in ChatGPT/Codex image tools) using
 your prompts + their uploaded photo. You do the writing and art direction.
@@ -122,6 +125,12 @@ Ask for (in one message, but don't block on perfection):
   patterned, heavier repetition) or will an adult read it aloud? Default to *recite-themselves*
   since that's the hardest and most common ask.
 - **Length**: default to **~12 picture pages** (plus cover) unless they say otherwise.
+- **Show-and-tell fit**: this book IS the child's show-and-tell — they hold it up and present it
+  to the class themselves. Confirm the **time slot** (usually 2–3 min) and, crucially, what the
+  child genuinely **loves** (a real interest, pet, place, habit). Show-and-tell is about sharing
+  *"this is me"* — the more the book is the real child + something they actually love, the better
+  it lands. If the child's home language isn't English, prefer easy-to-pronounce words in the
+  lines they must say aloud.
 
 ### Step 2 — Write the Story Bible  → confirm
 Copy `assets/story-bible-template.md` and fill it in. The make-or-break fields:
@@ -142,8 +151,10 @@ Copy `assets/storyboard-template.md`. Lay out ~12 pages with a clear arc (setup 
 want/problem → a repeated journey carrying the refrain → one big climax page → a warm, safe
 ending). For each page set the **shot type** and write the **finished English text**.
 
-Apply the text rules (Step 5) and the picture rules (Step 6) as you go. Then run the
-**self-check** (Step 7) and fix anything before showing the user.
+Frame it for the stage: plan an **opening self-intro** the child says holding up the cover,
+a **clear closing** ("The end! Thank you!"), and at least one **class-participation moment**
+(see the Show-and-Tell rules below). Apply the Text rules, Picture rules, and Show-and-Tell
+rules as you go. Then run the **self-check** and fix anything before showing the user.
 
 ### Step 4 — Image prompts (with the real photo as reference)
 Copy `assets/image-prompt-template.md`. For each page, assemble:
@@ -161,6 +172,13 @@ Copy `assets/image-prompt-template.md`. For each page, assemble:
 ### Step 5 — Production note
 Give the user a short, plain checklist: generate the character reference → cover → pages in
 order (eyeball consistency every ~3 pages) → put the page text under each image → export to PDF.
+
+### Step 6 — Build the presenter kit
+Copy `assets/presenter-kit-template.md` and fill it from the finished text. This is what turns a
+nervous 3-year-old into a little host. Include: the opening self-intro line, a per-page cue card
+(say + do: hold up / point / make the sound / turn / invite the class), the class-participation
+moment, the closing line, 3 simple Q&A answers a teacher might ask, and a parent rehearsal plan.
+Keep the child's spoken lines identical to the book text so practice and performance match.
 
 ---
 
@@ -212,6 +230,31 @@ place (see design-standards §5). Across ~12 pages:
   drifted, regenerate with the anchors re-emphasized. Drift is cumulative and invisible until
   you compare ends.
 
+## Show-and-Tell rules (the stage layer)
+
+This book gets performed by a 3-year-old standing in front of the class. That adds requirements
+a lap-read book doesn't have:
+
+- **Open and close cleanly.** Give the child a tiny **opening self-intro** ("Hi! I'm ___. This is
+  my book about ___.") and an unmistakable **closing** ("The end! Thank you!"). Young children
+  need a clear start and stop or they freeze or trail off.
+- **Design ONE participation moment** where the child leads the class — the strongest is teaching
+  the class the **refrain** so they chant it back (child says the problem → class shouts the
+  response), or a sound everyone makes together ("Say it with me: *crunch, crunch, crunch!*").
+  This flips the child from anxious reciter to proud host.
+- **Picture = prompt (safety net).** Each page's illustration must contain everything needed to
+  reconstruct its line, so if the child forgets the words, looking at the picture brings them
+  back. Never put a line on a page whose picture doesn't cue it.
+- **Hold-up legibility.** The class views the book from across the room, not up close. Every page
+  needs **one bold, high-contrast focal subject** readable from a few meters — clear silhouette,
+  big main element, uncluttered. Fussy fine detail that only reads on a lap fails on stage.
+- **Make it personal — "this is me."** The hero is the real child; tie the opening (and ideally
+  the last page) back to the child's real life and the thing they love. That personal hook is the
+  whole point of show-and-tell.
+- **Keep spoken lines easy to say.** Especially the refrain and the opening — short, smooth,
+  pronounceable for a young (possibly bilingual) child under the pressure of an audience.
+- **Mind the clock.** Target a 2–3 minute delivery: ~12 pages, ~120 words, unrushed.
+
 ---
 
 ## Before delivering — self-check
@@ -227,6 +270,10 @@ Quick gate, every book:
 - [ ] No page's text merely restates its picture
 - [ ] Scenes physically linked; ending returns to safety/warmth
 - [ ] Identity + style anchors written into every image prompt
+- [ ] **Show-and-tell**: opening self-intro + clear closing line
+- [ ] **Show-and-tell**: one class-participation moment where the child leads
+- [ ] **Show-and-tell**: every page's picture cues its line (forget-proof), and reads bold from across the room
+- [ ] **Show-and-tell**: presenter kit built (cue card + rehearsal plan + Q&A); fits 2–3 min
 
 ---
 
