@@ -49,6 +49,42 @@ casebook; the rules below are the operational summary.
 
 ---
 
+## North Star — what "good" actually feels like
+
+The detailed rules can drown out the felt target. Keep this north star in front of you the
+whole time:
+
+> **You are not telling a child a story. You are giving the child a GAME they can memorize,
+> play, and perform** — the words are chants and sounds, the pictures are rhythm and breath,
+> the page turn is a surprise.
+
+The gold-standard models for *a 3-year-old reciting it themselves* are books like
+**We're Going on a Bear Hunt** (a repeatable journey of obstacles, each with a sound word
+chanted ×3 and a fixed refrain, then an accelerated return trip), **Brown Bear, Brown Bear**
+(one fixed sentence frame, change one word per page), **Don't Let the Pigeon Drive the Bus!**
+(talk straight to the reader; minimal art with lots of white space still carries huge emotion),
+and **Goodnight Moon** (cumulative naming, the picture dims to show time passing, a warm safe
+close). See `references/north-star.md` for the worked study of each.
+
+**The 6 felt checks** — read your own draft and ask these; if any answer isn't "yes", it's not
+good enough yet:
+1. **Can they guess?** Reading half a page, can the child predict the next line? (a signature
+   refrain / fixed frame)
+2. **Play or homework?** Does it read like a game you want to chant, or like reciting a
+   description?
+3. **Can they perform it?** Sound words, actions, or lines spoken straight to the listener —
+   something the child does with mouth and body, not just hears.
+4. **Does the picture breathe?** Across page turns, do scale / light / colour / near-vs-far
+   actually change — or is it ten pages of the same shot? (the #1 thing AI image generation
+   gets wrong)
+5. **Is it small enough?** One smallest idea per page (one line, a few words)?
+6. **Is it warm?** Does the ending return to safety, warmth, quiet?
+
+These six are the human-memorable version of the red lines below. When in doubt, serve the
+north star, not the rule list.
+
+---
+
 ## Workflow
 
 Work through these steps in order. Confirm with the user at the gates marked **→ confirm**.
@@ -174,9 +210,13 @@ Quick gate, every book:
 
 ## Reference material (read as needed)
 
+- `references/north-star.md` — the felt standard: a worked study of 4 gold-standard models for
+  a 3-year-old reciter (Bear Hunt / Brown Bear / Pigeon / Goodnight Moon) and the 6 checks.
+  Read this to calibrate "what good feels like" before judging your own draft.
 - `references/design-standards.md` — the full *why*: age cognition (2–6), the text/picture
-  craft, the Caldecott Medal/Honor casebook, and the source-backed rationale. Read this when
-  you need to justify a choice or go deeper than the summary above.
+  craft, the Caldecott Medal/Honor casebook (Caldecott rewards **illustration**, awarded to
+  illustrators), and the source-backed rationale. Read this when you need to justify a choice
+  or go deeper than the summary above.
 - `references/orion-example.md` — a complete worked example (a real before→after rewrite of an
   AI-made book), showing the narrator-prose problem and the fix. Read this to calibrate the
   target quality and see the templates filled in.
